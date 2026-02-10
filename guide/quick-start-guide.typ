@@ -182,7 +182,7 @@
 
 #align(center)[
   #text(size: 12pt, fill: muted)[
-    This starter kit includes three Claude Code skills:
+    This starter kit includes three Gemini CLI skills:
   ]
   
   #v(0.5cm)
@@ -246,7 +246,7 @@ Open Obsidian and select this folder as a vault. When prompted, click *Trust aut
 
 #v(0.5cm)
 
-#framed-image("screenshots/01-vault-open.png", caption: "The starter kit vault with CLAUDE.md open")
+#framed-image("screenshots/01-vault-open.png", caption: "The starter kit vault with GEMINI.md open")
 
 #v(0.5cm)
 
@@ -254,7 +254,7 @@ The vault comes pre-configured with:
 - *Tasks* — Your tasks (managed by TaskNotes)
 - *Projects* — Goal tracking with structured data
 - *Daily* — Daily notes and check-ins
-- *.claude/skills* — Claude Code skills that make this work
+- *.gemini/skills* — Gemini CLI skills that make this work
 
 #v(0.5cm)
 
@@ -275,7 +275,7 @@ The vault comes pre-configured with:
 // ============================================
 
 #text(size: 20pt, weight: "bold")[
-  Step 2: Start Claude Code
+  Step 2: Start Gemini CLI
 ]
 
 #v(0.5cm)
@@ -290,9 +290,8 @@ The vault comes pre-configured with:
   radius: 6pt,
 )[
   #text(size: 10pt)[
-    *Don't have Claude Code?* Install it first: \
-    `curl -fsSL https://claude.ai/install.sh | bash` (Mac/Linux) \
-    `irm https://claude.ai/install.ps1 | iex` (Windows PowerShell)
+    *Don't have Gemini CLI?* Install it first: \
+    `npm install -g @google/gemini-cli`
   ]
 ]
 
@@ -306,18 +305,18 @@ Open your terminal, navigate to the vault folder, and start Claude:
   radius: 4pt,
 )[
   #text(fill: code-fg, font: "Menlo", size: 10pt)[
-    cd path/to/claude-code-obsidian-starter \
-    claude
+    cd path/to/gemini-cli-obsidian-starter \
+    gemini
   ]
 ]
 
 #v(0.5cm)
 
-#framed-image("screenshots/02-claude-started.png", caption: "Claude Code ready and waiting")
+#framed-image("screenshots/02-claude-started.png", caption: "Gemini CLI ready and waiting")
 
 #v(0.5cm)
 
-You'll see the Claude Code logo and a prompt. The path shows you're in the starter kit folder. Now you're ready to talk to your vault.
+You'll see the Gemini CLI logo and prompt. The path shows you're in the starter kit folder. Now you're ready to talk to your vault.
 
 #pagebreak()
 
@@ -335,7 +334,7 @@ You'll see the Claude Code logo and a prompt. The path shows you're in the start
 
 #v(0.8cm)
 
-Type this in Claude Code:
+Type this in Gemini CLI:
 
 #block(
   fill: code-bg,
@@ -353,7 +352,7 @@ Claude queries your vault and returns a formatted table:
 
 #v(0.3cm)
 
-#framed-image("screenshots/02-query-projects-terminal.png", caption: "Claude returns your projects in a formatted table")
+#framed-image("screenshots/02-query-projects-terminal.png", caption: "Gemini returns your projects in a formatted table")
 
 #v(0.8cm)
 
@@ -373,7 +372,7 @@ Now look at the *same data* in Obsidian (Bases/Projects):
     width: 90%,
   )[
     #text(size: 10pt)[
-      *Same 6 projects. Same data.* Claude reads directly from your Obsidian vault — nothing is made up or cached.
+      *Same 6 projects. Same data.* Gemini reads directly from your Obsidian vault — nothing is made up or cached.
     ]
   ]
 ]
@@ -412,7 +411,7 @@ Now try creating a task. Just describe what you need:
 
 #v(0.5cm)
 
-Claude understood:
+Gemini understood:
 - *What:* "Prepare for client meeting"
 - *When:* Tomorrow at 9:00 AM
 - *Priority:* High (inferred from "meeting with client")
@@ -559,7 +558,7 @@ The starter kit includes a morning routine skill that helps you start each day w
 
 === The Daily Note
 
-After the check-in, Claude creates a note in `Daily/` with your responses:
+After the check-in, Gemini creates a note in `Daily/` with your responses:
 
 #v(0.3cm)
 
@@ -614,7 +613,7 @@ The starter kit is just the beginning. With custom skills, you can automate enti
 
 === Automated Daily Reports
 
-Claude tracks your work throughout the day and generates a visual report:
+Gemini tracks your work throughout the day and generates a visual report:
 
 #v(0.3cm)
 
@@ -652,7 +651,7 @@ Then sends it to you automatically — no manual step required:
 
 #align(center)[
   #text(size: 11pt, fill: muted)[
-    If you can describe it, Claude can probably automate it.
+    If you can describe it, Gemini can probably automate it.
   ]
 ]
 
@@ -680,7 +679,7 @@ Make sure Obsidian is open with this vault. The skills communicate with Obsidian
 
 === "Skill not found"
 
-Make sure you ran `claude` from inside the vault folder. Claude automatically loads skills from `.claude/skills/`.
+Make sure you ran `gemini` from inside the vault folder. Gemini automatically loads skills from `.gemini/skills/`.
 
 #v(1.5cm)
 

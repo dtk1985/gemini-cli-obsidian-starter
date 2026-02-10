@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="guide/screenshots/readme-hero.png" alt="Claude Code + Obsidian Starter Kit" width="600">
+  <img src="guide/screenshots/readme-hero.png" alt="Gemini CLI + Obsidian Starter Kit" width="600">
 </p>
 
 <p align="center">
@@ -10,15 +10,15 @@
 
 ## Quick Start
 
-1. Clone: `git clone https://github.com/ArtemXTech/claude-code-obsidian-starter.git`
+1. Clone: `git clone https://github.com/dtk1985/gemini-cli-obsidian-starter.git`
 2. Open in Obsidian (trust plugins when prompted)
-3. Run: `cd claude-code-obsidian-starter && claude`
-4. Try: `/setup-memory` to build your CLAUDE.md
+3. Run: `cd gemini-cli-obsidian-starter && gemini`
+4. Try: `"setup memory"` to build your GEMINI.md
 
 ---
 
 ![Vault](guide/screenshots/01-vault-open.png)
-*The starter kit vault with CLAUDE.md open*
+*The starter kit vault with GEMINI.md open*
 
 ---
 
@@ -30,9 +30,11 @@
 | ✅ tasknotes | Create & manage tasks |
 | ☀️ review | Morning, evening, weekly routines |
 | 👤 client | Client follow-ups & emails |
+| 🛠️ setup | Configure your profile |
 
 ---
 
 Made with ❤️ for the Obsidian community
 
 By [Artem Zhutov](https://x.com/ArtemXTech)
+Then adapted for Gemini CLI, using Gemini CLI, supervised by github/dtk1985.

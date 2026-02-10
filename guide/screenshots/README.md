@@ -9,7 +9,7 @@ Only 3 screenshots. Take them in order.
 **What:** Obsidian with the starter kit vault open
 
 **How to take it:**
-1. Open Obsidian with claude-code-obsidian-starter vault
+1. Open Obsidian with gemini-cli-obsidian-starter vault
 2. Make sure sidebar is visible showing: Projects/, Clients/, Tasks/, Daily/
 3. Have a file open (maybe a Goal or Task)
 4. Screenshot the whole Obsidian window
@@ -20,14 +20,14 @@ Only 3 screenshots. Take them in order.
 
 ## 2. `02-query-goals.png`
 
-**What:** Terminal showing Claude querying goals
+**What:** Terminal showing Gemini querying goals
 
 **How to take it:**
 1. Open terminal in the vault folder
-2. Run: `claude .`
+2. Run: `gemini .`
 3. Type: "Show my goals"
 4. Wait for the table to appear
-5. Screenshot showing your prompt and Claude's response
+5. Screenshot showing your prompt and Gemini's response
 
 **Size:** ~800px wide, just the relevant part
 
@@ -38,7 +38,7 @@ Only 3 screenshots. Take them in order.
 **What:** Obsidian showing a newly created task
 
 **How to take it:**
-1. In Claude Code, type: "Create a task: Test the starter kit"
+1. In Gemini CLI, type: "Create a task: Test the starter kit"
 2. Switch to Obsidian
 3. Show the Tasks/ folder with the new file visible
 4. Screenshot

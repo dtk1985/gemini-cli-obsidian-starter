@@ -2,7 +2,7 @@
 status: open
 tags:
   - task
-project: "[[Learn Claude Code]]"
+project: "[[Learn Gemini CLI]]"
 context: phone
 due: 2026-01-10
 ---
